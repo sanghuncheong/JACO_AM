@@ -15,7 +15,7 @@ To use this node you need to install MoveIT.
 ```       
 2. arm_move_obj_msg.msg
 ```buildoutcfg
-
+ss
 ```
 
 ### Callback functions for ROS-topics
