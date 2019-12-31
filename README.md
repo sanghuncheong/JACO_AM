@@ -5,19 +5,34 @@ JACO_AM is a ROS-node that let you plan the JACO arm using MoveIT(https://moveit
 
 To use this node you need to install MoveIT.
 
-    def feasible_check_goalPose_m(self, data):
+### List of ROS messages and services types
     
-    def move_goalPose_m(self, data):
+1. arm_move_msg.msg
+```buildoutcfg
+    string[] arm_name : The move group in the MoveIT that you are going to plan. 
+    geometry_msgs/Point goal_position : The position of the goal pose (x, y, z).
+    geometry_msgs/Quaternion goal_orientation : The orientation of the goal pose in quaternion (x, y, z, w).
+```       
+2. arm_move_obj_msg.msg
+```buildoutcfg
 
-    def move_goalJoints_m(self, data):
+```
 
-    def add_box_m(self, data, timeout=4):
+### Callback functions for ROS-topics
+    
+    feasible_check_goalPose_m:
+    
+    move_goalPose_m:
 
-    def attach_box_m(self, data, timeout=4):
+    move_goalJoints_m:
 
-    def detach_box_m(self, data, timeout=4):
+    add_box_m:
 
-    def remove_box_m(self, data, timeout=4):
+    attach_box_m:
 
-    def remove_all_obj_m(self, data):
+    detach_box_m:
+
+    remove_box_m:
+
+    remove_all_obj_m:
  
