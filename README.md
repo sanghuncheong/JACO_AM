@@ -1,16 +1,15 @@
 # JACO_AM
 
-JACO_AM is a ROS-node that let you plan the JACO arm using MoveIT(https://moveit.ros.org/).
-To use this node you need to install MoveIT.
+JACO_AM is a ROS-node that let you plan the JACO arm using [MoveIT](https://moveit.ros.org/). 
 
 ## Installation
 
-You need to install MoveIT before install this package.
+You need to [install MoveIT](https://moveit.ros.org/install/) before install this package.
 
 
 ## Description
 
-You can communicate with JACO_AM through both ros-topic(https://github.com/sanghuncheong/JACO_AM/blob/tutorial/msg/README.md) and ros-service(https://github.com/sanghuncheong/JACO_AM/blob/tutorial/srv/README.md).
+You can communicate with JACO_AM through both ros-topic [README](https://github.com/sanghuncheong/JACO_AM/blob/tutorial/msg/README.md) and ros-service [README](https://github.com/sanghuncheong/JACO_AM/blob/tutorial/srv/README.md).
 
 
 
