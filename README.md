@@ -1,11 +1,21 @@
 # JACO_AM
-This repository is Arm move node for JACO robot.
 
 JACO_AM is a ROS-node that let you plan the JACO arm using MoveIT(https://moveit.ros.org/).
-
 To use this node you need to install MoveIT.
 
-### Callback functions for ROS-topics
+## Installation
+
+You need to install MoveIT before install this package.
+
+
+## Description
+
+You can communicate with JACO_AM through both ros-topic(https://github.com/sanghuncheong/JACO_AM/blob/tutorial/msg/README.md) and ros-service(https://github.com/sanghuncheong/JACO_AM/blob/tutorial/srv/README.md).
+
+
+
+
+## Callback functions for ROS-topics
     
     # Below functions plan arm trajectory using the message protocol.
     rospy.Subscriber('check_goal_pose_msg', arm_move_msg, AM.check_goal_pose_m)
@@ -21,4 +31,20 @@ To use this node you need to install MoveIT.
     rospy.Subscriber('det_box_msg', box_info_msg, AM.detach_box_m)
     rospy.Subscriber('remove_all_msg', String, AM.remove_all_obj_m)
 
- 
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
