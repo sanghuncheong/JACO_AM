@@ -8,21 +8,15 @@ you may combine these to make your own service.:satisfied: HAVE FUN!
 ## Description
 
 
+### services
+1. arm_goalJoint_srv: 
+2. alwekmf
 
-## Usage
+## components
 
-```python
-import foobar
+### request
+**arm_name**: the name of the move group that you want to find the trajectory.\
+**goalPose**: goal pose (position and orientation) for the planning\
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+### response
+**w_flag**: a flag value for checking if the service responded completely.
