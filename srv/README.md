@@ -1,11 +1,11 @@
-# SERVICE PART
+# ROS msg used in JACO_AM node
 
-You can use service type messages to communicate with JACO_AM node.
-There are 6 basic services in this folder.
+You can use ROS srv to communicate with JACO_AM node.
+There are 6 basic srvs in this folder.
 If you want other *requests* or *responses*,
-you may combine these to make your own service.:satisfied: HAVE FUN!
+you may combine these to make your own srv.:satisfied: HAVE FUN!
 
-## Services 함수 이름들 수정 필요합니다!
+## srv 함수 이름들 수정 필요합니다!
 + arm_goalJoint_srv: move_joints_s, 
 + arm_move_joint_goal_srv: 
 + arm_move_srv: goalPose_feasibility_check_s
